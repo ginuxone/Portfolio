@@ -1,5 +1,9 @@
 name: portfolio
-description: A new Flutter project.
+repository: https://github.com/ginuxone/Portfolio
+description: >-
+  My personal portfolio website made with flutter for the web.
+
+
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -28,6 +32,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  intl: any
 
 dev_dependencies:
   flutter_test:
@@ -38,7 +43,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  generate: true
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

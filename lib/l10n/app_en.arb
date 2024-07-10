@@ -1,0 +1,9 @@
+{
+    "@@locale": "en",
+    "@@author": "Gino Alessandro Milla",
+    
+    "homepageTitle": "Welcome to my Portfolio!",
+    "@homepageTitle": {
+        "description": "Label for the Page title"
+    }
+}
