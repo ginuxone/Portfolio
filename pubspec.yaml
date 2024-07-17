@@ -35,6 +35,7 @@ dependencies:
   intl: any
   flutter_localizations:
     sdk: flutter
+  tab_container: ^3.5.3
 
 dev_dependencies:
   flutter_test:
