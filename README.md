@@ -1,4 +1,5 @@
 # portfolio
+[![FlutterBuildPass](https://github.com/ginuxone/Portfolio/actions/workflows/dart.yml/badge.svg)](https://github.com/ginuxone/Portfolio/actions/workflows/dart.yml)
 
 A new Flutter project.
 
