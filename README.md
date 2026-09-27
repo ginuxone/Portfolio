@@ -1,16 +1,37 @@
-# portfolio
+# Portfolio
 
-A new Flutter project.
+Personal portfolio website of Gino Alessandro Milla, built with Flutter for the web.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Light and dark theme, following the system setting
+- Localized in English, Spanish and Italian (`lib/l10n/*.arb`)
+- Oswald font
 
-A few resources to get you started if this is your first Flutter project:
+## Project structure
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+lib/
+  main.dart         App entry point (theme + localization setup)
+  pages/            Pages of the site
+  components/       Reusable widgets (header, tabs, ...)
+  models/           Data models (e.g. JobModel)
+  themes/           Colors and light/dark ThemeData
+  l10n/             Translation files (.arb)
+web/                Web entry point (index.html, icons, manifest)
+fonts/              Bundled fonts
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Development
+
+Requires Flutter 3.35+ (Dart 3.9+).
+
+```sh
+flutter pub get          # also generates localizations
+flutter run -d chrome    # run locally
+flutter analyze          # lint
+flutter test             # tests
+flutter build web        # production build in build/web
+```
+
+To add a string, add it to `lib/l10n/app_en.arb` (with an `@key` description) and translate it in `app_es.arb` and `app_it.arb`.
