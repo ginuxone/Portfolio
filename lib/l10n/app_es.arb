@@ -2,5 +2,43 @@
     "@@locale": "es",
     "@@author": "Gino Alessandro Milla",
     "@@context": "Translation for the spanish version",
-    "homepageTitle": "Bienvenido a mi Portafolio!"
+
+    "navStack": "Tecnologías",
+    "navProjects": "Proyectos",
+    "navJourney": "Trayectoria",
+    "navContact": "Contacto",
+    "navMenu": "Menú",
+    "navHome": "Volver arriba",
+
+    "heroKicker": "Ingeniero de Software Fullstack",
+    "heroSubtitle": "Diseño y desarrollo productos web y móviles de principio a fin, desde front-ends en Flutter y React hasta back-ends en la nube con Azure y AWS.",
+    "heroViewProjects": "Ver proyectos",
+    "heroGetInTouch": "Contáctame",
+
+    "stackTitle": "Tecnologías",
+    "stackMeta": "{count} herramientas clave · arrastra la esfera para girarla",
+    "stackFrontend": "Frontend y Móvil",
+    "stackBackend": "Backend",
+    "stackCloud": "Cloud y DevOps",
+
+    "projectsTitle": "Proyectos destacados",
+    "projectsMeta": "Sitios web diseñados y desarrollados para clientes",
+
+    "journeyTitle": "Trayectoria",
+    "journeySubtitle": "Desliza la línea de tiempo para recorrer los años",
+    "journeyPresent": "Actualidad",
+    "journeySlider": "Línea de tiempo profesional",
+
+    "contactTitle": "Contacto",
+    "contactSubtitle": "¿Tienes un proyecto en mente o solo quieres saludar? Escríbeme.",
+    "contactName": "Nombre",
+    "contactEmail": "Correo electrónico",
+    "contactMessage": "Mensaje",
+    "contactSend": "Enviar mensaje",
+    "contactRequired": "Este campo es obligatorio",
+    "contactInvalidEmail": "Introduce un correo electrónico válido",
+    "contactThanks": "Gracias, {name} — mensaje recibido.",
+    "contactSendAnother": "Enviar otro mensaje",
+
+    "footerCopyright": "© {year} Gino Alessandro Milla · Hecho con Flutter"
 }

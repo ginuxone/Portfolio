@@ -4,23 +4,39 @@ Personal portfolio website of Gino Alessandro Milla, built with Flutter for the 
 
 ## Features
 
-- Light and dark theme, following the system setting
+Dark, compact **Nocturne** design (Inter, blurple accent) in a single page:
+
+- **Hero**: particle field forming the "GM" initials (spring physics, reacts to the pointer)
+- **Tech Stack**: auto-rotating 3D tag sphere (drag to spin) + grouped skills
+- **Projects**: glassmorphism cards linking to client sites
+- **Journey**: scrubbable career timeline
+- **Contact**: validated form with confirmation (no backend yet)
 - Localized in English, Spanish and Italian (`lib/l10n/*.arb`)
-- Oswald font
+- Keyboard focus ring on every interactive element; animations pause
+  off-screen and respect the OS "reduce motion" setting
 
 ## Project structure
 
 ```
 lib/
   main.dart         App entry point (theme + localization setup)
-  pages/            Pages of the site
-  components/       Reusable widgets (header, tabs, ...)
-  models/           Data models (e.g. JobModel)
-  themes/           Colors and light/dark ThemeData
+  theme/            Design tokens (tokens.dart) and ThemeData
+  screens/          HomeScreen: scroll view, sticky nav, section anchors
+  sections/         Hero, Tech Stack, Projects, Journey, Contact, Footer
+  widgets/          Particle hero, tech sphere, glass card, timeline, buttons...
+  models/           JobModel, ProjectModel
+  data/             Site content: profile/links, projects, journey entries
   l10n/             Translation files (.arb)
 web/                Web entry point (index.html, icons, manifest)
-fonts/              Bundled fonts
+fonts/              Bundled Inter font (OFL)
 ```
+
+## Editing content
+
+- Career entries: `lib/data/journey.dart`
+- Projects (add screenshots via `imageAsset`): `lib/data/projects.dart`
+- Links, sphere tags and skill groups: `lib/data/profile.dart`
+- UI text: `lib/l10n/app_*.arb`
 
 ## Development
 

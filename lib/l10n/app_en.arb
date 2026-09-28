@@ -1,9 +1,84 @@
 {
     "@@locale": "en",
     "@@author": "Gino Alessandro Milla",
-    
-    "homepageTitle": "Welcome to my Portfolio!",
-    "@homepageTitle": {
-        "description": "Label for the Page title"
+
+    "navStack": "Stack",
+    "@navStack": { "description": "Nav link to the Tech Stack section" },
+    "navProjects": "Projects",
+    "@navProjects": { "description": "Nav link to the Projects section" },
+    "navJourney": "Journey",
+    "@navJourney": { "description": "Nav link to the career Journey section" },
+    "navContact": "Contact",
+    "@navContact": { "description": "Nav link to the Contact section" },
+    "navMenu": "Menu",
+    "@navMenu": { "description": "Tooltip of the collapsed nav menu button" },
+    "navHome": "Back to top",
+    "@navHome": { "description": "Semantic label of the GM wordmark" },
+
+    "heroKicker": "Fullstack Software Engineer",
+    "@heroKicker": { "description": "Role tag above the hero name" },
+    "heroSubtitle": "I design and build web and mobile products end to end, from Flutter and React front-ends to cloud back-ends on Azure and AWS.",
+    "@heroSubtitle": { "description": "Hero paragraph under the name" },
+    "heroViewProjects": "View Projects",
+    "@heroViewProjects": { "description": "Hero primary button" },
+    "heroGetInTouch": "Get in Touch",
+    "@heroGetInTouch": { "description": "Hero secondary button" },
+
+    "stackTitle": "Tech Stack",
+    "@stackTitle": { "description": "Tech Stack section title" },
+    "stackMeta": "{count} core tools · drag the sphere to spin",
+    "@stackMeta": {
+        "description": "Right-aligned note in the Tech Stack header",
+        "placeholders": { "count": { "type": "int" } }
+    },
+    "stackFrontend": "Frontend & Mobile",
+    "@stackFrontend": { "description": "Skill group label" },
+    "stackBackend": "Backend",
+    "@stackBackend": { "description": "Skill group label" },
+    "stackCloud": "Cloud & DevOps",
+    "@stackCloud": { "description": "Skill group label" },
+
+    "projectsTitle": "Selected Projects",
+    "@projectsTitle": { "description": "Projects section title" },
+    "projectsMeta": "Websites designed and built for clients",
+    "@projectsMeta": { "description": "Right-aligned note in the Projects header" },
+
+    "journeyTitle": "Journey",
+    "@journeyTitle": { "description": "Career timeline section title" },
+    "journeySubtitle": "Scrub the timeline to move through the years",
+    "@journeySubtitle": { "description": "Career timeline section subtitle" },
+    "journeyPresent": "Present",
+    "@journeyPresent": { "description": "End of the date range of the current job" },
+    "journeySlider": "Career timeline",
+    "@journeySlider": { "description": "Semantic label of the timeline slider" },
+
+    "contactTitle": "Get in Touch",
+    "@contactTitle": { "description": "Contact section title" },
+    "contactSubtitle": "Have a project in mind or just want to say hi? Drop me a message.",
+    "@contactSubtitle": { "description": "Contact section subtitle" },
+    "contactName": "Name",
+    "@contactName": { "description": "Contact form field label" },
+    "contactEmail": "Email",
+    "@contactEmail": { "description": "Contact form field label" },
+    "contactMessage": "Message",
+    "@contactMessage": { "description": "Contact form field label" },
+    "contactSend": "Send Message",
+    "@contactSend": { "description": "Contact form submit button" },
+    "contactRequired": "This field is required",
+    "@contactRequired": { "description": "Validation error for empty fields" },
+    "contactInvalidEmail": "Enter a valid email address",
+    "@contactInvalidEmail": { "description": "Validation error for the email field" },
+    "contactThanks": "Thanks, {name} — message received.",
+    "@contactThanks": {
+        "description": "Confirmation shown after submitting the form",
+        "placeholders": { "name": { "type": "String" } }
+    },
+    "contactSendAnother": "Send another message",
+    "@contactSendAnother": { "description": "Button that resets the contact form" },
+
+    "footerCopyright": "© {year} Gino Alessandro Milla · Built with Flutter",
+    "@footerCopyright": {
+        "description": "Footer copyright line",
+        "placeholders": { "year": { "type": "String" } }
     }
 }

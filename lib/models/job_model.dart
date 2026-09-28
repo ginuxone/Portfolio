@@ -1,36 +1,24 @@
+/// One entry of the career timeline.
 class JobModel {
-  String title;
-  String description;
-  String location;
-  String company;
-  String type;
-  String fromDate;
-  String toDate;
-  String id;
-
-  JobModel({
-    required this.title,
-    required this.description,
-    required this.location,
-    required this.company,
-    required this.type,
-    required this.fromDate,
-    required this.toDate,
-    required this.id,
+  const JobModel({
+    required this.role,
+    required this.start,
+    this.end,
+    this.company,
+    this.highlights = const [],
+    this.tools = const [],
   });
 
-  // factory JobModel.fromJson(Map<String, dynamic> json){
-  //   return JobModel(
-  //     title: json['title'],
-  //     description: json['description'],
-  //     location: json['location'],
-  //     salary: json['salary'],
-  //     company: json['company'],
-  //     logo: json['logo'],
-  //     type: json['type'],
-  //     category: json['category'],
-  //     date: json['date'],
-  //     id: json['id']
-  //   );
-  // }
+  final String role;
+
+  /// Company or context of the role; omitted from the UI when null.
+  final String? company;
+  final DateTime start;
+
+  /// Null while the role is ongoing.
+  final DateTime? end;
+  final List<String> highlights;
+  final List<String> tools;
+
+  bool get isCurrent => end == null;
 }
